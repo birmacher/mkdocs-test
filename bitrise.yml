@@ -19,6 +19,7 @@ workflows:
             rm -rf site
             git clone --branch gh-pages "$REPO_URL" ./site
             mkdocs build --clean
+            cd site/
             git add .
             git commit -m 'deploy'
             git push origin gh-pages
