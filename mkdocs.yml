@@ -1,1 +1,14 @@
 site_name: MkDocs Test
+site_url: https://viktorbenei.github.io/mkdocs-test/
+site_description: My MkDocs Test
+site_author: Viktor Benei
+repo_url: https://github.com/viktorbenei/mkdocs-test
+
+theme: material
+
+pages:
+- Home: index.md
+- Getting Started:
+    - Start Here: getting-started/index.md
+    - Your First App: getting-started/your-first-app.md
+- About: about.md
