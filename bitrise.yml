@@ -4,22 +4,23 @@ default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
 description: |
   Official guides: http://www.mkdocs.org
 
-app:
-  envs:
-  - REPO_URL: git@github.com:viktorbenei/mkdocs-test.git
-
 workflows:
-  deploy:
+  deploy-to-github-pages:
     steps:
     - script:
         description: |
           Note: mkdocs builds into `./site/`
+
           Official GitHub Pages deploy guide: https://help.github.com/articles/creating-project-pages-manually/
+
+          *You can find infos about how to initialize the required `gh-pages` branch
+          in the official guide.*
         inputs:
         - content: |-
             #!/bin/bash
             set -ex
             rm -rf site
+            REPO_URL=$(git remote get-url origin)
             git clone --branch gh-pages "$REPO_URL" ./site
             mkdocs build --clean
             cd site/
