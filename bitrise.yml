@@ -1,6 +1,9 @@
 format_version: 1.2.0
 default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
 
+description: |
+  Official guides: http://www.mkdocs.org
+
 app:
   envs:
   - REPO_URL: git@github.com:viktorbenei/mkdocs-test.git
@@ -23,3 +26,11 @@ workflows:
             git add .
             git commit -m 'deploy'
             git push origin gh-pages
+  up:
+    steps:
+    - script:
+        inputs:
+        - content: |-
+            #!/bin/bash
+            set -ex
+            mkdocs serve

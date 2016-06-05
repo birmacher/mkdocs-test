@@ -1,3 +1,3 @@
 # Getting Started - Home
 
-This is the Getting Started home
+This is the Getting Started home.
