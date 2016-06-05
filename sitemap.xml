@@ -3,15 +3,31 @@
 
     
     <url>
-     <loc>None/</loc>
+     <loc>https://viktorbenei.github.io/mkdocs-test//</loc>
      <lastmod>2016-06-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
+        
     <url>
-     <loc>None/about/</loc>
+     <loc>https://viktorbenei.github.io/mkdocs-test//getting-started/</loc>
+     <lastmod>2016-06-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://viktorbenei.github.io/mkdocs-test//getting-started/your-first-app/</loc>
+     <lastmod>2016-06-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>https://viktorbenei.github.io/mkdocs-test//about/</loc>
      <lastmod>2016-06-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
