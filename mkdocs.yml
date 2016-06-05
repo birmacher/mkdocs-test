@@ -4,7 +4,7 @@ site_description: My MkDocs Test
 site_author: Viktor Benei
 repo_url: https://github.com/viktorbenei/mkdocs-test
 
-theme: material
+# theme: material
 
 pages:
 - Home: index.md

@@ -2,6 +2,12 @@
 
 This is a **test** site!
 
+Just for test:
+
+```
+Code sample
+```
+
 For full documentation visit [mkdocs.org](http://mkdocs.org).
 
 ## Commands
