@@ -5,7 +5,9 @@ This is a **test** site!
 Just for test:
 
 ```
-Code sample
+#!/bin/bash
+
+echo "Hi!"
 ```
 
 For full documentation visit [mkdocs.org](http://mkdocs.org).
